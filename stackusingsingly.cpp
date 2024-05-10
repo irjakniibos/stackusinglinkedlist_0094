@@ -84,7 +84,7 @@ int main(){
         cout << "3. Peek\n";
         cout << "4. Exit\n";
         cin >> choice ;
-    }
+    
 
     switch (choice)
     {
@@ -108,10 +108,16 @@ int main(){
         else {
         cout << "Stack is empty. No top value" << endl;
         }
+        break;
+    case 4:
+        cout << "Exiting program." << endl;
         break;    
     default:
-        break;
+        cout << "Invalid choice. Try again." << endl;
     }
+    cout << endl;
+}
+return 0;
 }
 
 
