@@ -85,7 +85,14 @@ int main(){
         cout << "4. Exit\n";
         cin >> choice ;
     }
+    switch (choice)
+    {
+    case 
+        break;
     
+    default:
+        break;
+    }
 }
 
 
