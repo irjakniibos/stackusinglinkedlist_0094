@@ -34,7 +34,14 @@ class stack{
         return value;
     }
 
+
+
+
     // Pop operation : remove the topmost element from the stack
+    /*
+    commit ke 9 itu salah seharusnya membuat sebuah method didalam class stack 
+    bukan membuat sebuah prosedur
+    */
     void pop(){
         if (isEmpty()) {
             cout << "Stack is empty" << endl;
@@ -44,6 +51,8 @@ class stack{
     }
     
 };
+
+
 
 
 
