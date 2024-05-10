@@ -79,7 +79,7 @@ int main(){
     int value;
     while (choice)
     {
-        
+        cout << "1. Push\n";
     }
     
 }
