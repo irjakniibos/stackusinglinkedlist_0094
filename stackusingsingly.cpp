@@ -77,7 +77,7 @@ int main(){
 
     int choice =0;
     int value;
-    while (choice)
+    while (choice !=4)
     {
         cout << "1. Push\n";
         cout << "2. Pop\n";
@@ -85,9 +85,13 @@ int main(){
         cout << "4. Exit\n";
         cin >> choice ;
     }
+
     switch (choice)
     {
-    case 
+    case 1: 
+    cout<< "Enter the value to push: ";
+        cin >> value;
+        stack.push(value); // Push the entered value onto the stack
         break;
     
     default:
