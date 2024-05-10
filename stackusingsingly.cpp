@@ -34,3 +34,8 @@ class stack{
         return value;
     }
 };
+
+// Pop operation : remove the topmost element from the stack
+void pop(){
+    
+}
