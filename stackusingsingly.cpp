@@ -80,6 +80,8 @@ int main(){
     while (choice)
     {
         cout << "1. Push\n";
+        cout << "2. Pop\n";
+        
     }
     
 }
